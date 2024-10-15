@@ -1,5 +1,7 @@
 # Ollama and OpenWeb UI Installation Guide (NVIDIA Jetson)
 
+© 2024 [Ai{DEAL} Studio](https://anpengcheng.cn/). All rights reserved.
+
 This guide will walk you through installing Ollama and OpenWeb UI on an NVIDIA Jetson device. After installation, Ollama will run in GPU mode, and you can access it through the browser on other devices. Follow the steps below to ensure a smooth installation.
 
 ## Contents
