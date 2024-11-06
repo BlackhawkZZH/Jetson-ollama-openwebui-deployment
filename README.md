@@ -99,3 +99,37 @@ It is recommended to install JetPack 6.0 (rev. 2) SDK version during the re-flas
 
 Once the installation is finished, you can access the GUI by visiting `YOUR_SERVER_IP:3000` in your browser.
 ![open_webui_services](/screenshots/gui.png)
+
+To install additional models via Ollama, please follow the steps below:
+
+1. Access the server via `ssh`
+
+   ```bash
+   ssh username@YOUR_SERVER_IP
+   ```
+
+   Optional: Ensure the server’s firewall allows SSH connections. If SSH is not permitted, you can enable it with the following command:
+
+   ```bash
+   sudo ufw allow ssh
+   ```
+
+2. Run Ollama
+
+   ```bash
+   reComputer run ollama
+   ```
+
+   Optional: If you run the above command via `ssh` and encounter the error `command not found: reComputer`, you can resolve this by executing the following command:
+
+   ```bash
+   source ~/.profile
+   ```
+
+3. Select and install a model
+
+   Browse the [Ollama library](https://ollama.com/library) and follow the provided instructions to install your desired model.
+
+4. Refresh the OpenWeb UI
+
+   Once the model is installed, refresh the OpenWeb UI at `YOUR_SERVER_IP:3000`. The newly downloaded model should now appear in the interface.
