@@ -100,6 +100,8 @@ It is recommended to install JetPack 6.0 (rev. 2) SDK version during the re-flas
 Once the installation is finished, you can access the GUI by visiting `YOUR_SERVER_IP:3000` in your browser.
 ![open_webui_services](/screenshots/gui.png)
 
+Access the API endpoints by navigating to `YOUR_SERVER_IP/ollama/docs#/`. For comprehensive documentation, please refer to the official resources: the [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md) (**recommended**) and [Open WebUI API Endpoints](https://docs.openwebui.com/getting-started/advanced-topics/api-endpoints/).
+
 To install additional models via Ollama, please follow the steps below:
 
 1. Access the server via `ssh`
@@ -132,4 +134,4 @@ To install additional models via Ollama, please follow the steps below:
 
 4. Refresh the OpenWeb UI
 
-   Once the model is installed, refresh the OpenWeb UI at `YOUR_SERVER_IP:3000`. The newly downloaded model should now appear in the interface.
+   Once the model is installed, refresh the Open WebUI at `YOUR_SERVER_IP:3000`. The newly downloaded model should now appear in the interface.
